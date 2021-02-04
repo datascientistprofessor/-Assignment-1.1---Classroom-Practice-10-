@@ -1,0 +1,32 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+}
+
+::placeholder {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+input[type=button] {
+    background-color: rgb(4, 129, 255);
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    border: none;
+}
+
+div {
+    float: left;
+}
