@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { records } from '../records';
 
 @Component({
   selector: 'results',
@@ -7,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResultsComponent implements OnInit {
 
-  constructor() { }
-
+  records = records;
+  constructor() {
+  }
   ngOnInit(): void {
   }
 

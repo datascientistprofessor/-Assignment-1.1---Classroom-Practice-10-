@@ -4,13 +4,13 @@
 <h1> Add record </h1>
 
 <p>Jogging date:</p>
-<input type="text" name="jdate" placeholder="mm/dd/yyyy" size="50"><br>
+<input type="text" name='jdate' placeholder="mm/dd/yyyy" size="50" [(ngModel)]='jdate'><br>
 
 <p>Distance (m)</p>
-<input type="text" name="distance" placeholder="0" size="50"><br>
+<input type="text" name="distance" placeholder="0" size="50" [(ngModel)]='distance'><br>
 
 <p>Time (s)</p>
-<input type="text" name="time" placeholder="0" size="50"><br><br>
+<input type="text" name="time" placeholder="0" size="50" [(ngModel)]='time'><br><br>
 
-<input type="button" value="Save" name="save">
+<input type="button" value="Save" name="save" (click)='savedButton()'>
 </div>

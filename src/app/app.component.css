@@ -5,4 +5,12 @@ h1 {
 
 .root {
     margin-left: 70px;
+    background-color: rgba(230, 230, 230, 0.596);
+}
+
+.footer {
+    margin-left: 70px;
+    margin-top: 480px;
+    height: 40px;
+    background-color: rgba(230, 230, 230, 0.596);
 }
